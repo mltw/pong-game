@@ -1,0 +1,53 @@
+BODY, H2, H3, H4, H5, H6, TH, TD {
+/* font-family: arial, helvetica, sans-serif; */
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+H1 {
+    font-size: 38px;
+    font-family: arial, helvetica, sans-serif;
+    text-align: center;
+}
+
+#canvas{
+  display:block;
+  margin: 0 auto;
+}
+
+#user{
+    text-align: right;
+}
+
+#marks{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#score1{
+    font-weight: bold;
+}
+
+.gameover {
+    font-family:sans-serif;
+    font-size:50px;
+    fill:red;
+  }
+
+  .playagain {
+    font-family:sans-serif;
+    font-size:20px;
+    fill:grey;
+    font-style: italic;
+  }
+
+  .score{
+    font-family:'Times New Roman', Times, serif;
+    font-size:60px;
+    fill:white;
+  }
+  .winner{
+    font-family:sans-serif;
+    font-size:20px;
+    fill:cyan;
+  }
+  

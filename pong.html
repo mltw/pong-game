@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <style>
+            @import url(style.css);
+            p.highlight {
+                color: red;
+            }
+            svg {
+                background-color: rgb(41, 41, 36);
+            }
+        </style>
+        <script src="./dist/pong.js"></script>
+    </head>
+    <body>
+        <h1>Pong</h1>
+    </div>
+        <h3>How to play: </h3>
+        <ol>
+            <li>Use 'W' key to move the paddle up, 'S' key to move it down.  </li>
+            <li>Defend the ball with your paddle.</li>
+            <li>When the ball hits the wall of a player, the opponent scores a point.</li>
+            <li>When a player reaches 7 points, he/she is the winner and the game ends.</li>
+            <p style="font-style: italic;">*After a player scores more than 3 points, the ball would move faster!</p>
+            <h2>Have Fun!</h2>
+            </ol>
+           
+            <hr>
+        <div class = "game-section">
+            <p id="marks">
+                <u>Score board</u>
+                <br>
+                Player (Blue): <span id = "score1">0</span>
+                <br>
+                Opponent (Red): <span id = "score2">0</span>
+            </p>
+            <svg id="canvas" width="600" height="600"></svg>
+        </div>
+    </body>
+</html>
